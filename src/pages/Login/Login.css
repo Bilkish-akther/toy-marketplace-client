@@ -1,0 +1,37 @@
+.loginBtn button {
+  border: none;
+  padding: 12px 40px;
+  border-radius: 8px;
+  color: white;
+  font: 1em sans-serif;
+  font-weight: 600;
+}
+
+.signUpText {
+  padding: 10px;
+}
+.signUpText a {
+  text-decoration: none;
+  font-weight: 600;
+  color: goldenrod;
+}
+.text-error {
+  color: red;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.loginBody {
+  margin-bottom: 30px;
+  padding: 5px;
+}
+.loginHeader {
+  display: inline-block;
+  padding: 8px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #30cfd0 0%, #330867 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
