@@ -1,0 +1,19 @@
+.viewDetailsDesign{
+
+  width: 100px;
+  height: 100px;
+
+}
+
+.viewAllCardDet{
+
+    box-shadow: 4px 8px 15px gray;
+    border-radius: 3px;
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+   
+    
+
+}
