@@ -20,7 +20,7 @@ const Gallery = () => {
   return (
     <div>
       <h2 className="text-center mt-4 text-bold ">Gallery Store</h2>
-      <div  className="galleryCard">
+      <div  className="galleryCard ">
         {dolls.map((doll) => (
           <ViewGallery key={doll.id} doll={doll}></ViewGallery>
         ))}

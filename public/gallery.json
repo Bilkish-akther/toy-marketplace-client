@@ -1,0 +1,125 @@
+{
+    "dolls": [
+      {
+        "id": 1,
+        "name": "Barbie",
+        "description": "Barbie is a fashion doll manufactured by the American toy company Mattel, Inc. and launched in March 1959.",
+        "image_url": "https://i.ibb.co/Hr39L2x/img20.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Teddy Bear",
+        "description": "A teddy bear is a soft toy in the form of a bear. It is usually stuffed with soft, white cotton and has a cute appearance.",
+        "image_url": "https://i.ibb.co/nnY1F79/img19.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Cabbage Patch Kids",
+        "description": "Cabbage Patch Kids are a line of soft-sculpture dolls created by Xavier Roberts and registered as a trademark by the American Greetings Corporation.",
+        "image_url": "https://i.ibb.co/MkPdG4K/img18.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Raggedy Ann",
+        "description": "Raggedy Ann is a character created by American writer Johnny Gruelle. She is a rag doll with red yarn hair and a triangle nose.",
+        "image_url": "https://i.ibb.co/xHDS2Km/img17.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Ken",
+        "description": "Ken is a fashion doll introduced by Mattel in 1961. He is Barbie's boyfriend and often seen as her male counterpart.",
+        "image_url": "https://i.ibb.co/dDQ5KLg/img15.jpg"
+      },
+      {
+        "id": 6,
+        "name": "Bratz",
+        "description": "Bratz is a line of fashion dolls and merchandise manufactured by MGA Entertainment. They are known for their oversized heads and stylish outfits.",
+        "image_url": "https://i.ibb.co/17M7Rx9/img14.jpg"
+      },
+      {
+        "id": 7,
+        "name": "American Girl",
+        "description": "American Girl dolls are a line of 18-inch dolls created by Pleasant Company, now a subsidiary of Mattel. Each doll represents a different historical period and comes with a book.",
+        "image_url": "https://i.ibb.co/vj1TN51/img16.jpg"
+      },
+      {
+        "id": 8,
+        "name": "G.I. Joe",
+        "description": "G.I. Joe is a line of action figures produced by Hasbro. They depict members of the U.S. military and have been popular since the 1960s.",
+        "image_url": "https://i.ibb.co/HpRKR4F/img13.jpg"
+      },
+      {
+        "id": 9,
+        "name": "Baby Alive",
+        "description": "Baby Alive is a line of dolls that simulate eating, drinking, and other baby activities. They are designed to provide a nurturing play experience.",
+        "image_url": "https://i.ibb.co/CsJHNzF/img12.jpg"
+      },
+      {
+        "id": 10,
+        "name": "Troll Dolls",
+        "description": "Troll Dolls are plastic dolls with colorful hair that stands up straight. They gained popularity in the 1960s and have remained popular collectibles.",
+        "image_url": "https://i.ibb.co/V2YzknF/ima11.jpg"
+      },
+      {
+        "id": 11,
+        "name": "L.O.L. Surprise!",
+        "description": "L.O.L. Surprise! dolls are collectible dolls with layers of surprises. Each doll comes in a ball-shaped container and reveals different accessories and outfits.",
+        "image_url": "https://i.ibb.co/fn64KvD/img10.jpg"
+      },
+      {
+        "id": 12,
+        "name": "Monster High",
+        "description": "Monster High is a fashion doll franchise created by Mattel. The dolls are inspired by monster movies and feature characters who are the offspring of famous monsters.",
+        "image_url": "https://i.ibb.co/S027F7R/img8.jpg"
+      },
+      {
+        "id": 13,
+        "name": "Blythe",
+        "description": "Blythe is a fashion doll with a unique look characterized by oversized heads and large eyes that change color with a pull-string mechanism. Blythe dolls have gained a following among collectors.",
+        "image_url": "https://i.ibb.co/t4qGHL2/img7.jpg"
+      },
+      {
+        "id": 14,
+        "name": "My Little Pony",
+        "description": "My Little Pony is a toy line and media franchise featuring colorful pony characters. The dolls have manes and tails that can be brushed and styled.",
+        "image_url": "https://i.ibb.co/f0M4Wt1/img6.jpg"
+      },
+      {
+        "id": 15,
+        "name": "Ever After High",
+        "description": "Ever After High is a fashion doll franchise launched by Mattel. The dolls are based on characters from fairy tales and depict the next generation of famous fairy tale characters.",
+        "image_url": "https://i.ibb.co/9vrBBVm/img5.jpg"
+      },
+      {
+        "id": 16,
+        "name": "Strawberry Shortcake",
+        "description": "Strawberry Shortcake is a character and doll line created by American Greetings. The dolls feature a young girl with strawberry-themed clothes and accessories.",
+        "image_url": "https://i.ibb.co/fQ2QkX8/img4.jpg"
+      },
+      {
+        "id": 17,
+        "name": "Cry Babies",
+        "description": "Cry Babies are interactive dolls that cry real tears. They come with accessories and make sounds to simulate the experience of caring for a crying baby.",
+        "image_url": "https://i.ibb.co/XpM6kdH/img3.jpg"
+      },
+      {
+        "id": 18,
+        "name": "Disney Princess",
+        "description": "Disney Princess dolls feature characters from Disney animated films, such as Cinderella, Ariel, and Belle. They are often dressed in elaborate costumes and are popular among young fans.",
+        "image_url": "https://i.ibb.co/PmVq5R4/img2.jpg"
+      },
+      {
+        "id": 19,
+        "name": "Bratzillaz",
+        "description": "Bratzillaz are a spin-off line of Bratz dolls with a supernatural theme. The dolls are witches with unique powers and fashions.",
+        "image_url": "https://i.ibb.co/vhL2stW/img1.jpg"
+      },
+      {
+        "id": 20,
+        "name": "Winx Club",
+        "description": "Winx Club is an Italian animated television series and doll line. The dolls depict a group of fairies with magical powers and colorful fashion styles.",
+        "image_url": "https://i.ibb.co/t4qGHL2/img7.jpg"
+      }
+    ]
+  }
+  
