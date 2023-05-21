@@ -1,0 +1,30 @@
+AllToys.sellerImg{
+
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+table {
+    overflow: hidden;
+  }
+  
+  tr:hover {
+    background-color: #ffa;
+  }
+  
+  td, th {
+    position: relative;
+  }
+  td:hover::after,
+  th:hover::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(235, 235, 224);
+    left: 0;
+    top: -5000px;
+    height: 10000px;
+    width: 100%;
+    z-index: -1;
+  }
