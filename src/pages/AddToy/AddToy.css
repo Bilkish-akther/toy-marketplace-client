@@ -1,0 +1,44 @@
+.add-job-container{
+    padding: 20px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(255, 255, 244);
+}
+
+.update-toy-container{
+    display: block;
+    padding: 20px;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(255, 255, 244);
+}
+.update-form-div{
+    justify-content: center;
+    align-items:center;
+    
+}
+.text-input{
+    
+    border: 5px;
+    padding: 15px;
+    margin: 5px;
+    border: 10px;
+    background-color: rgb(223, 230, 231);
+}
+.submit-btn{
+    width: 80%;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(242, 242, 252);
+   
+    font-size:18px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    border-radius: 2px;
+}
+.submit-btn:hover{
+    background-color: rgb(31, 237, 55);
+}
