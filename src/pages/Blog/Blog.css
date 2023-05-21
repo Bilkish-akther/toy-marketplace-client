@@ -1,0 +1,46 @@
+.AllQuestionDesign{
+
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 20px;
+    margin: 15px;
+    border-radius: 20px ;
+    background-color: cornsilk;
+    border: 10px;
+
+}
+.Question-one{
+ text-align: start;
+text-align: center;
+margin-top: 10px;
+padding: 10px;
+}
+
+.Question-two{
+    text-align: start;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+.Question-three{
+    text-align: start;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+     
+}
+.Question-four{
+    text-align: start;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+     
+}
+.AllQuestionDesign p{
+    text-align: justify;
+    line-height: 1.7;
+    word-spacing: 3px;
+   
+}
