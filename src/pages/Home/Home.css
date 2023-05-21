@@ -1,0 +1,22 @@
+.cardDesign{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 15px;
+}
+
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .cardDesign{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .cardDesign{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+  }
