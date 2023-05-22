@@ -1,4 +1,3 @@
-/*eslint-disable no-unused-vars */
 import React, { useContext } from "react";
 import { useState } from "react";
 import "./SocialLoginBtn.css";
@@ -8,7 +7,7 @@ import {
   signInWithPopup,
   GithubAuthProvider,
 } from "firebase/auth";
-import app from "../../firebase/firebase.config";
+
 import { AuthContext } from "../../component/providers/AuthProvider";
 
 const SocialLoginBtn = () => {

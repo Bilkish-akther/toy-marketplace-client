@@ -10,7 +10,7 @@ import './Footer.css'
 
 function Footer() {
   return (
-    <footer className="bg-dark text-white p-5  m-auto">
+    <footer className="bg-dark text-white p-5  m-auto mt-4">
       <div className="container">
       <div> 
       <img  className="rounded-circle iconDesign1" src="https://i.ibb.co/w4prJLZ/icon-logo.jpg" alt="" />
@@ -66,7 +66,7 @@ function Footer() {
         </div>
         <div className="row mt-4">
           <div className="col-md-12 text-center">
-            <p>&copy; 2023 Your Company. All rights reserved.</p>
+            <p className="text-color">&copy; 2023 Your Company. All rights reserved.</p>
           </div>
         </div>
       </div>

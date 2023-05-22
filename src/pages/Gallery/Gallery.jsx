@@ -19,8 +19,8 @@ const Gallery = () => {
 
   return (
     <div>
-      <h2 className="text-center mt-4 text-bold ">Gallery Store</h2>
-      <div  className="galleryCard ">
+      <h1 className="text-center mt-4">Gallery Store</h1>
+      <div  className="galleryCard">
         {dolls.map((doll) => (
           <ViewGallery key={doll.id} doll={doll}></ViewGallery>
         ))}

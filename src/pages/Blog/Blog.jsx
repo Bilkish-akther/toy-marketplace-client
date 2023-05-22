@@ -21,7 +21,7 @@ const Blog = () => {
           protected resources on behalf of a user or an application. It is
           typically a string of characters that represents the authorization
           granted to a user after a successful authentication process. Access
-          tokens are time-limited and contain information such as the users
+          tokens are time-limited and contain information such as the user's
           identity, permissions, and expiration time. When making requests to an
           API or a server, the access token is included in the request headers
           to authenticate and authorize the user. Remember to use secure
@@ -45,15 +45,14 @@ const Blog = () => {
           expired, the server processes the request and returns the requested
           data. Access Token Expiration: Access tokens have a limited lifespan,
           typically a short duration, to minimize the impact of unauthorized
-          access if a token is compromised. When an access token expires, the
-          client application needs to obtain a new one.
+         
         </p>
 
         <h2 className="text-2xl"> 2.Compare SQL and NoSQL databases?</h2>
 
         <p className="Question-two ">
           SQL and NoSQL are two distinct types of databases that differ in their
-          data models, query languages, scalability, and use cases. Heres a
+          data models, query languages, scalability, and use cases. Here's a
           comparison between SQL and NoSQL databases: Data Model: SQL: SQL
           databases use a structured data model based on tables with predefined
           schemas. Data is organized into rows and columns, and relationships
@@ -68,7 +67,7 @@ const Blog = () => {
           capabilities. NoSQL: NoSQL databases typically have their own query
           languages or APIs. The query languages for NoSQL databases are often
           simpler and focused on specific data models. Examples include
-          MongoDBs query language, Cassandra Query Language (CQL), or key-based
+          MongoDB's query language, Cassandra Query Language (CQL), or key-based
           operations in Redis.
         </p>
 
@@ -90,7 +89,7 @@ const Blog = () => {
           and perform tasks such as logging, parsing request bodies,
           authentication, error handling, and more. Middleware functions have
           access to the request and response objects, enabling customization and
-          extension of the application behavior. Templating: While Express.js
+          extension of the application's behavior. Templating: While Express.js
           itself does not include a specific templating engine, it provides
           support for integrating popular templating engines like EJS, Pug
           (formerly Jade), Handlebars, and others. Templating engines allow you
@@ -140,14 +139,14 @@ const Blog = () => {
           Deconstructs an array field into multiple documents, creating a new
           document for each element in the array. It is helpful when you need to
           work with individual array elements during the aggregation. These are
-          just a few examples of the available stages in MongoDB aggregation
+          just a few examples of the available stages in MongoDB's aggregation
           framework. You can combine and chain multiple stages to create complex
           aggregation pipelines that meet your specific data processing
           requirements. Aggregation pipelines in MongoDB are executed in the
           database server, providing efficient processing and leveraging indexes
           when applicable. The pipeline stages are applied in the order
           specified, and the output of one stage becomes the input for the next
-          stage. Here an example of using the aggregate function in MongoDB to
+          stage. Here's an example of using the aggregate function in MongoDB to
           find the average age of people in a collection:
         </p>
       </div>

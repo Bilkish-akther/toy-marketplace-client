@@ -13,6 +13,8 @@ import {
 } from "firebase/auth";
 import React, { createContext, useEffect, useState } from "react";
 import app from "../../firebase/firebase.config";
+import Api from "../app_const/server_info";
+import ApiBaseUrl from "../app_const/server_info";
 
 export const AuthContext = createContext(null);
 
@@ -76,10 +78,10 @@ const AuthProvider = ({ children }) => {
 
   var [isUpdate,setUpdate]=useState('');
   var [descending,setDescending]=useState(true);
-
+// b7a11-toy-marketplace-server-side-mufizul27-5em3l23qt-p-hero.vercel.app/${toysList}
   var [toys, setToy] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/toysList")
+    fetch(`${ApiBaseUrl}/toysList`)
       .then((res) => res.json())
       .then((data) => setToy(data.sort((a, b) =>descending? (b.price - a.price):(a.price - b.price))));
   }, [isUpdate,descending]);

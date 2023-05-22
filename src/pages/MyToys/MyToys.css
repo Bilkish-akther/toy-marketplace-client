@@ -5,3 +5,13 @@
     background: rgb(229, 234, 243);
 }
  
+.searchButton{
+    text-align: center;
+    padding-top: 20px;
+}
+.iconCenter{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+   
+}

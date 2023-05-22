@@ -36,7 +36,7 @@ const router = createBrowserRouter([
   {
     loader: () =>
       fetch(
-        "https://bangladeshi-foods-recipe-server-jy589pije-bilkish-akther.vercel.app/recipe"
+        `https://y-10b0k9q2r-bilkish-akther.vercel.app`
       ),
     path: "/",
     element: <Header></Header>,
@@ -92,10 +92,10 @@ const router = createBrowserRouter([
       },
     ],
   },
-  {
-    path: "*",
-    element: <ErrorPage></ErrorPage>,
-  },
+   {
+        path: "*",
+        element: <ErrorPage></ErrorPage>,
+      },
 ]);
 
 export default router;

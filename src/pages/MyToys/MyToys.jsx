@@ -1,17 +1,26 @@
 import React, { useContext, useState, useEffect } from "react";
 import { AuthContext } from "../../component/providers/AuthProvider";
-import Doll from "../Doll/Doll";
+
 import { Button, Modal, Table } from "react-bootstrap";
 import "./MyToys.css";
 import { MDBCol, MDBFormInline, MDBBtn } from "mdbreact";
 import { useLocation, useNavigate } from "react-router-dom";
- import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSort } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSort } from "@fortawesome/free-solid-svg-icons";
+import "./MyToys.css";
+import ApiBaseUrl from "../../component/app_const/server_info";
 
 const MyToys = () => {
-  const { toys, setSelectToy, user, setUpdate,setDescending,
-    descending ,setTitle} = useContext(AuthContext);
-  setTitle("MyToys")
+  const {
+    toys,
+    setSelectToy,
+    user,
+    setUpdate,
+    setDescending,
+    descending,
+    setTitle,
+  } = useContext(AuthContext);
+  setTitle("MyToys");
   var [filterToys, setFilterToys] = useState([]);
   var [searchToys, setSearchToys] = useState([]);
   const navigator = useNavigate();
@@ -33,18 +42,17 @@ const MyToys = () => {
   const handleDelete = () => {
     console.log(selectId);
 
-    fetch(`http://localhost:5000/deleteToy/${selectId}`, {
+    fetch(`${ApiBaseUrl}/deleteToy/${selectId}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
-        if (data.deletedCount > 0) {
-          setUpdate("deleted");
-          //alert("deleted successful");
-          const remaining = filterToys.filter((toy) => toy._id !== selectId);
-          setFilterToys(remaining);
-        }
+
+        setUpdate(`update +${Math.random() * 10000000}`);
+        //alert("deleted successful");
+        const remaining = filterToys.filter((toy) => toy._id !== selectId);
+        setFilterToys(remaining);
       });
     setShow(false);
   };
@@ -52,36 +60,36 @@ const MyToys = () => {
   useEffect(() => {
     var toy = toys.filter((t) => t.sellerEmail === user.email);
     setFilterToys(toy);
-    setSearchToys(toy)
+    setSearchToys(toy);
   }, [toys]);
 
   // handleSearch
-  const handleSearch=(searchText)=>{
+  const handleSearch = (searchText) => {
     console.log(searchText);
     setSearchToys(filterToys);
-   var searchToys=filterToys.filter((toy)=>{
-      return (
-        toy.toyName.toLowerCase().includes(searchText.toLowerCase())
-    );
-    })
+    var searchToys = filterToys.filter((toy) => {
+      return toy.toyName.toLowerCase().includes(searchText.toLowerCase());
+    });
     setSearchToys(searchToys);
-  }
-  const handleSorting=()=>{
+  };
+  const handleSorting = () => {
     setDescending(!descending);
-  }
+  };
   return (
     <div>
       {/* search Button */}
 
-      <div>
+      <div className="searchButton">
         <input
-          placeholder="Search Your Project"
+          placeholder="Search Your Product"
           type="search"
           onChange={(e) => handleSearch(e.target.value)}
         />
-        <Button>Search</Button>
+        <Button className="p-2">Search</Button>
       </div>
-      <button><FontAwesomeIcon icon={faSort} onClick={handleSorting} size="3x"/></button>
+      <button className="iconCenter">
+        <FontAwesomeIcon icon={faSort} onClick={handleSorting} size="3x" />
+      </button>
 
       {/* // myToy filter */}
       {filterToys.length != 0 ? (
@@ -133,7 +141,7 @@ const MyToys = () => {
           </tbody>
         </Table>
       ) : (
-        <h1>No Toys</h1>
+        <h1 className="text-center bold">No Toys</h1>
       )}
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

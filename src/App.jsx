@@ -1,7 +1,6 @@
 import { useState } from 'react'
 /*eslint-disable no-unused-vars */
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 function App() {
@@ -10,7 +9,7 @@ function App() {
   return (
     <>
     
-      <h1></h1>
+      <h1>Dolls fantasy Dreams </h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
@@ -20,7 +19,7 @@ function App() {
         </p>
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        
       </p>
     </>
   )

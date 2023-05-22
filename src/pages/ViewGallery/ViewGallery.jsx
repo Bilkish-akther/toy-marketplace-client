@@ -12,7 +12,7 @@ const ViewGallery = ({doll}) => {
     return (
       <div data-aos="fade-right">
        
-         <div className=' card-img-container card-img-top '>
+         <div className=' card-img-container card-img-top ms-4 cols-sm-12'>
          <div className="card mt-4 " style={{ width: '18rem' }}>
         <img src={doll.image_url} className=" cardImage card-img-top " alt={doll.name} />
        

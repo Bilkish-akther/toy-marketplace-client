@@ -3,7 +3,6 @@
 import React, { useContext } from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
-
 import { AuthContext } from "../../component/providers/AuthProvider";
 import Footer from "../Footer/Footer";
 import "./Header.css";

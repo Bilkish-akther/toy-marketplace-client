@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Tab, Tabs } from "react-bootstrap";
-import Doll from "../Doll/Doll";
 import { AuthContext } from "../../component/providers/AuthProvider";
 import DollCard from "./dollCard";
 import './Category.css'

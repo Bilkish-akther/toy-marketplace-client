@@ -4,6 +4,8 @@ import { useForm } from "react-hook-form";
 import { AuthContext } from "../../component/providers/AuthProvider.jsx";
 import "../AddToy/AddToy.css";
 import Alert from "react-bootstrap/Alert";
+import ApiBaseUrl from "../../component/app_const/server_info.jsx";
+import './UpdateToy.css';
 
 const UpdateToy = () => {
   const { selectToy, setUpdate } = useContext(AuthContext);
@@ -17,7 +19,8 @@ const UpdateToy = () => {
 
   const onUpdate = (data) => {
     console.log(data);
-    fetch(`http://localhost:5000/updateToy/${selectToy._id}`, {
+    fetch(`${ApiBaseUrl}/updateToy/${selectToy._id}`, {
+   
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
